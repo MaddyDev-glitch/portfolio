@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.512fa715.css",
+    "main.css": "/portfolio/static/css/main.3dfe6e7d.css",
     "main.js": "/portfolio/static/js/main.390a393a.js",
     "static/media/earth.jpg": "/portfolio/static/media/earth.a08c82a61f5bf923991e.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
@@ -19,11 +19,11 @@
     "static/media/frontier.png": "/portfolio/static/media/frontier.5c360af6554ccc4344ce.png",
     "static/media/mylogo.png": "/portfolio/static/media/mylogo.04ee9d1f2b96c44bdc8e.png",
     "index.html": "/portfolio/index.html",
-    "main.512fa715.css.map": "/portfolio/static/css/main.512fa715.css.map",
+    "main.3dfe6e7d.css.map": "/portfolio/static/css/main.3dfe6e7d.css.map",
     "main.390a393a.js.map": "/portfolio/static/js/main.390a393a.js.map"
   },
   "entrypoints": [
-    "static/css/main.512fa715.css",
+    "static/css/main.3dfe6e7d.css",
     "static/js/main.390a393a.js"
   ]
 }
