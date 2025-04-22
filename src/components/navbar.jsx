@@ -1,7 +1,13 @@
 import React, { useEffect, useRef } from "react";
 import logo1 from "../img/mylogo.png";
 import logo2 from "../img/mylogo.png";
-
+const handleClick = (e) => {
+  e.preventDefault();
+  window.open(
+    "https://docs.google.com/document/d/1RVxHCq9d4VNqjO9MzGxVUYRVjknoxTDQThVQII71EBI/preview",
+    "_blank"
+  );
+};
 const Navbar = () => {
   const [logo, setLogo] = React.useState(logo1);
   const navRef = useRef(null);
@@ -51,6 +57,9 @@ const Navbar = () => {
 
         <div className="navbar-collapse collapse justify-content-end" id="navbarDefault">
           <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link" href="#home" onClick={handleClick}>My Resume</a>
+            </li>
             <li className="nav-item">
               <a className="nav-link" href="#home">Home</a>
             </li>

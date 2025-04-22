@@ -909,6 +909,8 @@ CONTACT
 #errormessage.show,
 .show {
     display: block;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgb(255 255 255 / 0%));
+    border-radius: 5px;
 }
 
 .validation {
