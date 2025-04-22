@@ -46,11 +46,11 @@ class About extends React.Component {
         },
       ],
       about_me: [
-        {
-          id: "first-p-about",
-          content:
-            "An enthusuastic software developer who loves to create. Studies Computer Science at Binghamton University. A competitive cyclist who likes to travel and a hobby photographer",
-        },
+        // {
+        //   id: "first-p-about",
+        //   content:
+        //     "",
+        // },
         {
           id: "second-p-about",
           content:
