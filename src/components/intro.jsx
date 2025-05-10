@@ -9,7 +9,7 @@ import rgnetLogo from "../img/rgnet.png";
 const handleClick = (e) => {
   e.preventDefault();
   window.open(
-    "https://docs.google.com/document/d/1RVxHCq9d4VNqjO9MzGxVUYRVjknoxTDQThVQII71EBI/preview",
+    "https://docs.google.com/document/d/1-4NCg_mZPggtPREcw5oxdF6-Xq-9kPMm1x8f2UqQRnI/preview",
     "_blank"
   );
 };
