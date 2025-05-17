@@ -9,6 +9,8 @@ import React from "react";
 // import proj15 from "../img/image6.jpg";
 import proj1 from "../img/proj1.png";
 import iperf_image from "../img/ipg1.PNG";
+import github_image from "../img/github.jpeg";
+
 import GithubProjectCard from "./project_card";
 class Portfolio extends React.Component {
   render() {
@@ -38,6 +40,13 @@ class Portfolio extends React.Component {
               imgSrc={iperf_image}
               title="iPerf3 Web-UI"
               description="iPerf3-WebUI is a modern, lightweight, web-based frontend for iPerf3, built using Python 3 and Flask. Run network speed tests easily from any device — macOS, Linux, Windows, or even Android phones (via Termux)."
+            />
+            <GithubProjectCard
+              repo="MaddyDev-glitch"
+              imgSrc={github_image}
+              title="Explore more on my GitHub"
+              description="Discover more of my projects, contributions, and open-source work.Click to visit my GitHub profile and see what I’ve been building!"
+              isStar={false}
             />
           </div>
         </div>
