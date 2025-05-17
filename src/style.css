@@ -5,8 +5,25 @@ GENERAL STYLING
 body {
     background-color: #000000!important;
     color: #ffffff!important;
-}
+    /* transform: scale(0.8);
+    transform-origin: top left;
+    width: 125vw;
+    height: 125vh;
+    overflow: auto; */
 
+}
+@media (min-width: 768px) {
+    body {
+      background-color: #000000 !important;
+      color: #ffffff !important;
+      transform: scale(0.8);
+      transform-origin: top left;
+      width: 125vw;
+      height: 125vh;
+      overflow: auto;
+    }
+  }
+  
 h1,
 h2,
 h3,
@@ -355,7 +372,12 @@ a:hover {
 
 
 /* Back to top button */
-
+.background-cont{
+    /* overflow: hidden; */
+    /* background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%); */
+    background: radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.4), transparent 46%);
+    height: 100vh;
+}
 .back-to-top {
     position: fixed;
     display: none;
@@ -651,6 +673,13 @@ INTRO
     position: relative;
     color: #fff;
 }
+@media (min-width:782px){
+    .intro {
+        height: 140vh;
+        position: relative;
+        color: #fff;
+    }
+}
 
 .intro .intro-content {
     text-align: center;
@@ -778,6 +807,8 @@ PORTFOLIO
 
 .work-content {
     padding: 2rem 3% 1rem 4%;
+    margin-right: 10px;
+    margin-top: 4px;
 }
 
 .work-content .w-more {
@@ -1104,7 +1135,7 @@ BUTTON
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 992px) {
    
     .intro .intro-title {
         /* font-size: 4.5rem; */
@@ -1149,4 +1180,8 @@ BUTTON
    .box-shadow-full{
     padding: 10px;
    }
+}
+.golden-star{
+    margin-right: 10px;
+    margin-top: 4px;
 }

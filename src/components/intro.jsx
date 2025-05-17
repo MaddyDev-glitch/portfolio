@@ -17,7 +17,7 @@ const handleClick = (e) => {
 class Intro extends React.Component {
   render() {
     return (
-      <div id="home" className="intro route bg-image background">
+      <div id="home" className="intro route bg-image background-cont">
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
